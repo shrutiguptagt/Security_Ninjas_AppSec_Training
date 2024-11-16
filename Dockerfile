@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:trusty-20190425
 RUN apt-get -q update && apt-get install -y apache2
 RUN apt-get install -y php5 libapache2-mod-php5 php5-mcrypt
 RUN apt-get install -y php5-common
